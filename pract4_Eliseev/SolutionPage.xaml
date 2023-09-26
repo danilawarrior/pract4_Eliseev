@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="pract4_Eliseev.SolutionPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Решение">
+    <VerticalStackLayout>
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Январь"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Февраль"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Март"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Апрель"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Май"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Июнь"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Июль"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Август"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Сентябрь"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Октябрь"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Ноябрь"
+            GroupName="seasons" />
+        <RadioButton
+            CheckedChanged="checkChanged"
+            Content="Декабрь"
+            GroupName="seasons" />
+        <Label
+            x:Name="labelSeasons"
+            Padding="20"
+            FontSize="22"
+            Text="Время года:" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="pract4_Eliseev.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:pract4_Eliseev"
+    Shell.FlyoutBehavior="Disabled">
+
+
+    <TabBar>
+        <Tab Title="Задания">
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Решения">
+            <ShellContent
+                Title="Первый способ решения"
+                ContentTemplate="{DataTemplate local:SolutionPage}"
+                Route="SolutionPage" />
+            <ShellContent
+                Title="Второй способ решения"
+                ContentTemplate="{DataTemplate local:SolutionPage2}"
+                Route="SolutionPage2" />
+        </Tab>
+    </TabBar>
+
+</Shell>
